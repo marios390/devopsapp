@@ -1,5 +1,40 @@
+spring:
+  profiles:
+    active: qa
 
+---
+
+spring:
+  profiles: default
 guru:
   springframework:
     profile:
-      message: This is my DEV profile
+      message: This is a default1 profile
+
+---
+
+spring:
+  profiles: dev
+guru:
+  springframework:
+    profile:
+      message: This is my DEV1 profile
+
+---
+
+spring:
+  profiles: prod
+guru:
+  springframework:
+    profile:
+      message: This is my production1 profile
+
+---
+
+spring:
+  profiles: qa
+guru:
+  springframework:
+    profile:
+      message: This is my QA1 profile
+
