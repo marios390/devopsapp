@@ -24,7 +24,7 @@ public class PropertySourceTest {
     public void testPropsSet() throws Exception {
         assertEquals("10.10.10.123", fakeJmsBroker.getUrl());
         assertEquals(3330, fakeJmsBroker.getPort().intValue());
-        assertEquals("Ron", fakeJmsBroker.getUser());
-        assertEquals("Burgundy", fakeJmsBroker.getPassword());
+        assertEquals("user", fakeJmsBroker.getUser());
+        assertEquals("pass", fakeJmsBroker.getPassword());
     }
 }
