@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(DataSourceConfig.class)
-@ActiveProfiles("guru")
+@ActiveProfiles("dev")
 public class DataSourceTest {
 
     private FakeDataSource fakeDataSource;
