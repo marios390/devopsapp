@@ -1,6 +1,6 @@
-CREATE USER 'springframework'@'localhost' IDENTIFIED BY 'guru';
+CREATE USER 'springframework'@'%' IDENTIFIED BY 'guru';
 
-GRANT SELECT ON springguru.* to 'springframework'@'localhost';
-GRANT INSERT ON springguru.* to 'springframework'@'localhost';
-GRANT DELETE ON springguru.* to 'springframework'@'localhost';
-GRANT UPDATE ON springguru.* to 'springframework'@'localhost';
+GRANT SELECT ON springguru.* to 'springframework'@'%';
+GRANT INSERT ON springguru.* to 'springframework'@'%';
+GRANT DELETE ON springguru.* to 'springframework'@'%';
+GRANT UPDATE ON springguru.* to 'springframework'@'%';
